@@ -4,8 +4,8 @@ import requests
 import streamlit as st
 
 # ================= CONFIGURATION =================
-BOT_TOKEN = "8862758415:AAGnQAPoJPTDLFxBgor3rN8O3un7SA9udNo"
-CHAT_ID = "-5566030429"
+BOT_TOKEN = st.secrets["BOT_TOKEN"]
+CHAT_ID = st.secrets["BOT_TOKEN"]
 # =================================================
 
 def pdf_first_page_to_image(pdf_path, output_img_path="first_page.png"):
