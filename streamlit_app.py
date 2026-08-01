@@ -5,7 +5,7 @@ import streamlit as st
 
 # ================= CONFIGURATION =================
 BOT_TOKEN = st.secrets["BOT_TOKEN"]
-CHAT_ID = st.secrets["BOT_TOKEN"]
+CHAT_ID = st.secrets["CHAT_ID"]
 # =================================================
 
 def pdf_first_page_to_image(pdf_path, output_img_path="first_page.png"):
